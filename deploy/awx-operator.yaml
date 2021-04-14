@@ -453,7 +453,7 @@ spec:
       serviceAccountName: awx-operator
       containers:
         - name: awx-operator
-          image: "quay.io/ansible/awx-operator:0.7.0"
+          image: "192.168.20.30:5000/myansible:latest"
           imagePullPolicy: "Always"
           volumeMounts:
             - mountPath: /tmp/ansible-operator/runner
