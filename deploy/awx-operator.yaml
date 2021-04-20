@@ -6,6 +6,8 @@ kind: CustomResourceDefinition
 metadata:
   name: awxs.awx.ansible.com
 spec:
+  tower_task_privileged: true
+spec:
   group: awx.ansible.com
   names:
     kind: AWX
